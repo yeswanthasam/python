@@ -1,16 +1,14 @@
 a=int(input("give a:"))
 b=int(input("give b:"))
 c=int(input("give c:"))
-
-d=(b**2) - 4*a*c
+d=(b**2) - 4*a*c #quartic equation formula turns into python lang
 e=d**(0.5)
 
 root1=(-b + e)/2*a
 root2=(-b - e)/2*a
-
 print(f"roots:({root1},{root2})")
 
-'''radius=int(input("radius="))
+radius=int(input("radius="))
 #area=3.14*radius*radius
 #area=3.14*radius**2
 area=3.14*(radius**2)
