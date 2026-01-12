@@ -84,5 +84,5 @@ appel_in_fruits='banana' in fruits
 print(appel_in_fruits)
 print('-------------------------')
 grapes_not_in_fruits='jediek' not in fruits
-print(grapes_not_in_fruits)'''
+print(grapes_not_in_fruits)
 
