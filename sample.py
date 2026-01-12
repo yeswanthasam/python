@@ -1,8 +1,12 @@
-fruits=['appel','banana','orange']
-appel_in_fruits='banana' in fruits
-print(appel_in_fruits)
+##Membership Operators "in" "not in"
+x=10
+y=20
+list=[10,30,40]
 
-'''a=int(input("give a:"))
+print(x in list,"x is present in list")
+print(y not in list,"y is not present in list")
+
+"""a=int(input("give a:"))
 b=int(input("give b:"))
 c=int(input("give c:"))
 d=(b**2) - 4*a*c #quartic equation formula turns into python lang
@@ -84,5 +88,5 @@ appel_in_fruits='banana' in fruits
 print(appel_in_fruits)
 print('-------------------------')
 grapes_not_in_fruits='jediek' not in fruits
-print(grapes_not_in_fruits)
+print(grapes_not_in_fruits)"""
 
