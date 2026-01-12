@@ -1,4 +1,8 @@
-a=int(input("give a:"))
+fruits=['appel','banana','orange']
+appel_in_fruits='banana' in fruits
+print(appel_in_fruits)
+
+'''a=int(input("give a:"))
 b=int(input("give b:"))
 c=int(input("give c:"))
 d=(b**2) - 4*a*c #quartic equation formula turns into python lang
