@@ -1,3 +1,4 @@
+#hello bro
 #swaping value blw variables not using temp variable
 a=int(input("give a:"))
 b=int(input("give b:"))
@@ -64,7 +65,7 @@ a=input()
 print("you entered:",a)
 
 a,b=input("enter a and b values: ").split(",")
-print("true and false:",a and b,"ture or false:",a or b,"not true:",not a,sep=" ")
+print("true and false:",a and b,"true or false:",a or b,"not true:",not a,sep=" ")
 
 a = input("Enter first boolean (true/false): ").lower() == "true"
 b = input("Enter second boolean (true/false): ").lower() == "true"
@@ -74,7 +75,7 @@ print(f"true and false: {a and b}, true or false: {a or b}, not true: {not a}")
 x,y=input("enter a and b values: ").split(",")
 a=int(x)
 b=int(y)
-print("addition:",a+b, "substraction:",a-b, "multipilication:",a*b, "division:",a/b)
+print("addition:",a+b, "subtraction:",a-b, "multiplication:",a*b, "division:",a/b)
 
 a=input()
 x,y,z=a.split()
