@@ -1,4 +1,16 @@
-#hello bro
+#basic currency converter
+usd_amount=int(input("amount_in_usd="))
+usd_to_eur=float(input("exchange_rate_usd_to_eur ="))
+eurs=usd_to_eur*usd_amount
+print(f"Equivalent amount in EUR:{eurs}")
+"""
+#converting temperature units
+temp_c=float(input("temperature_celsius:"))
+temp_f=temp_c*(9/5)+32
+temp_k=273+temp_c
+print(f"temperature in fahrenheit:{temp_f}")
+print(f"temperature in kelvin:{temp_k}")
+
 #swaping value blw variables not using temp variable
 a=int(input("give a:"))
 b=int(input("give b:"))
@@ -10,7 +22,6 @@ a=a-b
 print(f"a value is {a}")
 print(f"b value is {b}")
 
-"""
 #swaping value blw variables using temp variable
 a=int(input("enter value of a:"))
 b=int(input("enter value of b:"))
