@@ -1,3 +1,34 @@
+#swaping value blw variables not using temp variable
+a=int(input("give a:"))
+b=int(input("give b:"))
+
+a=a+b
+b=a-b
+a=a-b
+
+print(f"a value is {a}")
+print(f"b value is {b}")
+
+"""
+#swaping value blw variables using temp variable
+a=int(input("enter value of a:"))
+b=int(input("enter value of b:"))
+temp=a
+a=b
+b=temp
+print("a=",a,sep="")
+print("b=",b,sep="")
+
+
+##identity Operators "is" "is not"
+a=["apple","banana"]
+b=["grapes","orange"]
+x=a
+print(x is a)
+print(x is not a)
+print(x is b)
+print(x is  not b)
+
 ##Membership Operators "in" "not in"
 x=10
 y=20
@@ -6,7 +37,7 @@ list=[10,30,40]
 print(x in list,"x is present in list")
 print(y not in list,"y is not present in list")
 
-"""a=int(input("give a:"))
+a=int(input("give a:"))
 b=int(input("give b:"))
 c=int(input("give c:"))
 d=(b**2) - 4*a*c #quartic equation formula turns into python lang
