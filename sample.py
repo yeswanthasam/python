@@ -1,9 +1,10 @@
+"""
 #basic currency converter
 usd_amount=int(input("amount_in_usd="))
 usd_to_eur=float(input("exchange_rate_usd_to_eur ="))
 eurs=usd_to_eur*usd_amount
 print(f"Equivalent amount in EUR:{eurs}")
-"""
+
 #converting temperature units
 temp_c=float(input("temperature_celsius:"))
 temp_f=temp_c*(9/5)+32
@@ -132,4 +133,3 @@ print(appel_in_fruits)
 print('-------------------------')
 grapes_not_in_fruits='jediek' not in fruits
 print(grapes_not_in_fruits)"""
-
